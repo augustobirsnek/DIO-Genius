@@ -30,8 +30,7 @@ let shuffleOrder = () => {
 let ligthColor = (element) => {
     setTimeout(() => {
         element.classList.toggle('selected');
-        console.log(element);
-        setTimeout(() => {
+            setTimeout(() => {
             element.classList.toggle('selected');
         }, 350);
     },700);
